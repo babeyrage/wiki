@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "windows/chocolatey.md",
+            "file": "docker/docker.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows/chocolatey.md",
+                "file": "docker/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows/chocolatey.md",
+                "file": "docker/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows/chocolatey.md"
+                "file": "docker/docker.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "a4acbcade553f7ae",
   "lastOpenFiles": [
-    "tools/wsl.md",
+    "Homepage.md",
+    "tools/zshell.md",
+    "tools/git.md",
     "tools/vscode.md",
-    "tools/terraform.md",
-    "tools/vagrant.md",
-    "tools/starship.md",
-    "misc/ssl-security.md",
-    "misc/ssl-certs.md",
-    "macos/macos-shortcuts.md",
-    "macos/vscode-macos-shortcuts.md",
-    "docker/docker.md"
+    "tools/certutil.md",
+    "tools/bitwarden.md",
+    "tools/ansible-playbook.md",
+    "tools/ansible.md",
+    "tools/iterm2.md",
+    "misc/ssl-security.md"
   ]
 }
