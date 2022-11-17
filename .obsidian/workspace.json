@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "2350e7944924f6be",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cfb237a46153502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4acbcade553f7ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "azuread/externalidentities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "756a8e7cdea9b820",
+    "type": "split",
+    "children": [
+      {
+        "id": "56b109074d80a83a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4735a1e1dbe50f0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f29e74ad0b76f213",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cfa1a71284309ef9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "22c469f41898e9a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "38e1e1ed23d648d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "708d93e4062d28a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "azuread/externalidentities.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c185e2a1b7bc2672",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "azuread/externalidentities.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2dcc6d46cd56964",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d9f6e1341bc2bca9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "azuread/externalidentities.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a4acbcade553f7ae",
+  "lastOpenFiles": [
+    "azuread/azureidentity.md",
+    "azuread/azureeditions.md",
+    "azuread/azuread.md",
+    "azuread/externalidentities.md",
+    "docker/docker.md",
+    "Homepage.md",
+    "tools/zshell.md",
+    "tools/git.md",
+    "tools/vscode.md",
+    "tools/certutil.md"
+  ]
+}
