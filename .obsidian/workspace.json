@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8cfb237a46153502",
+        "id": "fd3f7b948b18c937",
         "type": "tabs",
         "children": [
           {
-            "id": "a4acbcade553f7ae",
+            "id": "7082cac974d2a370",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azuread/externalidentities.md",
+                "file": "azuread/conditional_access.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "azuread/externalidentities.md",
+                "file": "azuread/conditional_access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "azuread/externalidentities.md",
+                "file": "azuread/conditional_access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "azuread/externalidentities.md"
+                "file": "azuread/conditional_access.md"
               }
             }
           }
@@ -136,20 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "a4acbcade553f7ae",
+  "active": "7082cac974d2a370",
   "lastOpenFiles": [
-    "azuread/azureidentity.md",
-    "azuread/azureeditions.md",
-    "azuread/azuread.md",
-    "azuread/externalidentities.md",
-    "docker/docker.md",
-    "Homepage.md",
-    "tools/zshell.md",
-    "tools/git.md",
-    "tools/vscode.md",
-    "tools/certutil.md"
+    "azuread/azure_roles.md",
+    "azuread/azure_identity.md",
+    "azuread/azure_editions.md",
+    "azuread/azure_ad.md",
+    "azuread/hybrid_identity.md",
+    "azuread/external_identities.md",
+    "azuread/conditional_access.md",
+    "azuread/images/Pasted image 20221118000211.png",
+    "azuread/Pasted image 20221118154252.png",
+    "azuread/Pasted image 20221117234702.png"
   ]
 }
