@@ -40,3 +40,17 @@ code $PROFILE
 ## (Optional) Set up starship Prompt
 You can customize the look and feel of PowerShell with the Starship Prompt ([[starship]]).
 
+## Powershell Commands
+
+### Permissions
+
+icacls (folder/file directory) - lists the permission for the folder/file
+
+icacls 'folder/file directory' /grant 'UserName:Permissions' 
+
+```powershell
+
+icacls C:\Users\babeyRAGE\Documents /grant 'Everyone:(OI)(CI)(R)'
+
+```
+
