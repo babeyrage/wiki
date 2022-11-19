@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azuread/conditional_access.md",
+                "file": "azuread/external_identities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "azuread/conditional_access.md",
+                "file": "azuread/external_identities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "azuread/conditional_access.md",
+                "file": "azuread/external_identities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "azuread/conditional_access.md"
+                "file": "azuread/external_identities.md"
               }
             }
           }
@@ -138,13 +138,13 @@
   },
   "active": "7082cac974d2a370",
   "lastOpenFiles": [
+    "azuread/conditional_access.md",
     "azuread/azure_roles.md",
     "azuread/azure_identity.md",
     "azuread/azure_editions.md",
     "azuread/azure_ad.md",
     "azuread/hybrid_identity.md",
     "azuread/external_identities.md",
-    "azuread/conditional_access.md",
     "azuread/images/Pasted image 20221118000211.png",
     "azuread/Pasted image 20221118154252.png",
     "azuread/Pasted image 20221117234702.png"
