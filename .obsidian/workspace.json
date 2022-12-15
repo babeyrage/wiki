@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows/powershell.md",
+                "file": "linux/mount.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04007b507ab342a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/linuxbasics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c825257cd86a858e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "networking/osi-model/network-layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77b974a84019fe2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "networking/osi-model/transport-layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows/powershell.md",
+                "file": "networking/osi-model/transport-layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows/powershell.md",
+                "file": "networking/osi-model/transport-layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows/powershell.md"
+                "file": "networking/osi-model/transport-layer.md"
               }
             }
           }
@@ -148,17 +185,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7082cac974d2a370",
+  "active": "4735a1e1dbe50f0c",
   "lastOpenFiles": [
-    "windows/permissions.md",
+    "networking/osi-model/network-layer.md",
+    "networking/create-dkim-keypair.md",
+    "linux/linuxbasics.md",
+    "linux/linux.md",
+    "networking/tls-handshake.md",
+    "Disk Partioning & Formatting a Filesystem.md",
+    "linux/mount.md",
     "windows/powershell.md",
-    "windows/access-control-list.md",
-    "kubernetes/k3s.md",
-    "windows/windows-updates.md",
-    "windows/windows-terminal.md",
-    "windows/windows-dns-server.md",
-    "windows/environment-variables.md",
-    "windows/chocolatey.md",
-    "azure-ad/external_identities.md"
+    "windows/permissions.md",
+    "windows/access-control-list.md"
   ]
 }
