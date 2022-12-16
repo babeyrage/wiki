@@ -13,46 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows/powershell-remote.md",
+                "file": "networking/osi-model/transport-layer.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "7473d36c103cec1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/file-folder-permissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3f7a81cc6b53da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows/powershell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5a939dd0fc44c8a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -118,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "windows/powershell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "windows/powershell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "windows/powershell.md"
+              }
             }
           }
         ]
@@ -165,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4735a1e1dbe50f0c",
+  "active": "7082cac974d2a370",
   "lastOpenFiles": [
-    "windows/powershell-remote.md",
-    "windows/chocolatey.md",
-    "windows/access-control-list.md",
+    "windows/permissions.md",
     "windows/powershell.md",
-    "linux/user.md",
-    "linux/ufw.md",
-    "linux/sed.md",
-    "linux/nfs.md",
-    "linux/mount.md",
-    "linux/awk.md"
+    "windows/access-control-list.md",
+    "kubernetes/k3s.md",
+    "windows/windows-updates.md",
+    "windows/windows-terminal.md",
+    "windows/windows-dns-server.md",
+    "windows/environment-variables.md",
+    "windows/chocolatey.md",
+    "azure-ad/external_identities.md"
   ]
 }
