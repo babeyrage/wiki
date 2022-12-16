@@ -1,4 +1,5 @@
 # PowerShell Cheat-Sheet
+
 PowerShell is a task automation and configuration management program from Microsoft, consisting of a command-line shell and the associated scripting language.
 
 ## Install PowerShell
@@ -44,9 +45,15 @@ You can customize the look and feel of PowerShell with the Starship Prompt ([[st
 
 ### Permissions
 
-icacls (folder/file directory) - lists the permission for the folder/file
+**Listing Permissions**
 
-icacls 'folder/file directory' /grant 'UserName:Permissions' 
+```powershell
+icacls C:\Users\babeyRAGE\Documents
+```
+
+Lists the current users and their permissions 
+
+**Granting Permissions**
 
 ```powershell
 
@@ -54,3 +61,4 @@ icacls C:\Users\babeyRAGE\Documents /grant 'Everyone:(OI)(CI)(R)'
 
 ```
 
+Grant access with set permissions and will **r**eplace any previouly granted explicit permissions for the given user, otherwise the permissions are added.
