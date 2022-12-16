@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd3f7b948b18c937",
+        "id": "20cc1670e7edf85c",
         "type": "tabs",
         "children": [
           {
-            "id": "7082cac974d2a370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/mount.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04007b507ab342a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/linuxbasics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c825257cd86a858e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "networking/osi-model/network-layer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77b974a84019fe2d",
+            "id": "0afee2e286a4df9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3b3f7a81cc6b53da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows/powershell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -177,25 +128,34 @@
                 "file": "networking/osi-model/transport-layer.md"
               }
             }
+          },
+          {
+            "id": "d1b4fbbc4727df9a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "4735a1e1dbe50f0c",
+  "active": "0afee2e286a4df9d",
   "lastOpenFiles": [
+    "networking/osi-model/osi-model.md",
+    "networking/osi-model/transport-layer.md",
     "networking/osi-model/network-layer.md",
-    "networking/create-dkim-keypair.md",
-    "linux/linuxbasics.md",
-    "linux/linux.md",
+    "networking/osi-model/application-layer.md",
     "networking/tls-handshake.md",
-    "Disk Partioning & Formatting a Filesystem.md",
+    "networking/osi-model/physical-layer.md",
+    "networking/osi-model/data-layer.md",
     "linux/mount.md",
-    "windows/powershell.md",
-    "windows/permissions.md",
-    "windows/access-control-list.md"
+    "linux/linuxbasics.md",
+    "networking/create-dkim-keypair.md"
   ]
 }
