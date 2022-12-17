@@ -1,11 +1,9 @@
 # The Network Layer
 
 ## IP Addresses
-
 32-bit long numbers made up of 4 octet - 8 bits of data (1 octet) represents number 0 - 255
 
 ### IP Datagrams & Encapsulation
-
 Highly structured series of fields that are strictly defined.
 
 2 primary sections are header and payload
@@ -30,7 +28,6 @@ Highly structured series of fields that are strictly defined.
 | Padding            |         | set of zeros to ensure the header is the correct total size                                                                  |                                                                                                                                  |     |     |
 
 ### IPv4 Address Classes
-
 There are 3 primary types of address classes:
 
 1. Class A: addresses where the **first octet** is used for the network ID - has 24-bits of host ID space - 16,777,216 different addresses - adddresses begin with 0 - 127
@@ -40,5 +37,4 @@ There are 3 primary types of address classes:
 5. Class E: unassigned IPs - addresses begin with 240 - 255
 
 ### Address Resolution Protocol (ARP)
-
 A protocol used to discover the hardware address of a node with a certain IP address.

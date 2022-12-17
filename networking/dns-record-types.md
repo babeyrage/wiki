@@ -31,3 +31,14 @@ NSEC|The ‘next secure record’ is part of DNSSEC, and it’s used to prove th
 RRSIG|The ‘resource record signature’ is a record to store digital signatures used to authenticate records in accordance with DNSSEC.
 RP|This is the ‘responsible person’ record and it stores the email address of the person responsible for the domain.
 SSHFP|This record stores the ‘SSH public key fingerprints’; SSH stands for Secure Shell and it’s a cryptographic networking protocol for secure communication over an unsecure network.
+
+## DNS Servers
+There are 5 primary types of DNS servers:
+
+1. Caching name servers - stores known domain name lookups for a certain amount of time
+2. Recursive name servers - perform full DNS resolution requests
+3. Root name servers 
+4. TLD (Top Level Domain) name servers
+5. Authoritative name server
+
+DNS lookups utilise UDP as a single DNS request and its response can usually fit inside of a single UDP datagram.
