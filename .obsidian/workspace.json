@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f4803bdecf8405c",
+        "id": "5952a2c4a19f19fe",
         "type": "tabs",
         "children": [
           {
-            "id": "9df13ff9ecc4bd98",
+            "id": "a889fa7aa2016f5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "networking/dns-record-types.md",
+                "file": "azure-ad/external-identities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "networking/dns-record-types.md",
+                "file": "azure-ad/external-identities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "networking/dns-record-types.md",
+                "file": "azure-ad/external-identities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "networking/dns-record-types.md"
+                "file": "azure-ad/external-identities.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9df13ff9ecc4bd98",
+  "active": "4735a1e1dbe50f0c",
   "lastOpenFiles": [
+    "azure-ad/azure-identity.md",
+    "azure-ad/azure-roles.md",
+    "azure-ad/conditional-access.md",
+    "azure-ad/azure-editions.md",
+    "azure-ad/azure-ad.md",
+    "programming/python.md",
+    "cryptography.md",
+    "networking/dns-record-types.md",
     "networking/osi-model/images/tcp segment.png",
-    "networking/osi-model/images/three-way-handshake.png",
-    "networking/osi-model/transport-layer.md",
-    "networking/osi-model/network-layer.md",
-    "networking/osi-model/osi-model.md",
-    "networking/osi-model/images/ipdatagram.png",
-    "networking/osi-model/data-layer.md",
-    "networking/osi-model/application-layer.md",
-    "windows/permissions.md",
-    "windows/powershell.md"
+    "networking/osi-model/images/three-way-handshake.png"
   ]
 }
