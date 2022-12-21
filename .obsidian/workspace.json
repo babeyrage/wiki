@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5952a2c4a19f19fe",
+        "id": "ad18e0c2fc830640",
         "type": "tabs",
         "children": [
           {
-            "id": "a889fa7aa2016f5f",
+            "id": "9b3b1adc56da646f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure-ad/external-identities.md",
+                "file": "windows/azure-ad.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "azure-ad/external-identities.md",
+                "file": "windows/azure-ad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "azure-ad/external-identities.md",
+                "file": "windows/azure-ad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "azure-ad/external-identities.md"
+                "file": "windows/azure-ad.md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "4735a1e1dbe50f0c",
   "lastOpenFiles": [
-    "azure-ad/azure-identity.md",
-    "azure-ad/azure-roles.md",
-    "azure-ad/conditional-access.md",
-    "azure-ad/azure-editions.md",
-    "azure-ad/azure-ad.md",
+    "windows/azure-ad/azure-roles.md",
+    "windows/azure-ad/conditional-access.md",
+    "windows/azure-ad.md",
+    "windows/azure-ad/external-identities.md",
+    "windows/azure-ad/azure-identity.md",
+    "windows/azure-ad/azure-editions.md",
+    "windows/365-defender.md",
+    "windows/access-control-list.md",
     "programming/python.md",
-    "cryptography.md",
-    "networking/dns-record-types.md",
-    "networking/osi-model/images/tcp segment.png",
-    "networking/osi-model/images/three-way-handshake.png"
+    "cryptography.md"
   ]
 }
