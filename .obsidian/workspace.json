@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows/azure-ad.md",
+                "file": "windows/365-defender.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "windows/azure-ad.md",
+                "file": "windows/365-defender.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "windows/azure-ad.md",
+                "file": "windows/365-defender.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows/azure-ad.md"
+                "file": "windows/365-defender.md"
               }
             }
           }
@@ -137,11 +136,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4735a1e1dbe50f0c",
+  "active": "9b3b1adc56da646f",
   "lastOpenFiles": [
+    "windows/azure-ad.md",
     "windows/azure-ad/azure-roles.md",
     "windows/azure-ad/conditional-access.md",
-    "windows/azure-ad.md",
     "windows/azure-ad/external-identities.md",
     "windows/azure-ad/azure-identity.md",
     "windows/azure-ad/azure-editions.md",
