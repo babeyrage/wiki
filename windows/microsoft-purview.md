@@ -41,3 +41,20 @@ Compliance Manager tracks the following types of controls:
 * **Shared controls**: responsibility for implementing these controls is shared by the organisation and Microsoft.
 
 Compliance Manager continuously assesses controls by scanning through the Microsoft 365 environment and detecting the system settings, continuously and automatically updating the technical action status.
+
+### Assessments
+An assessment is a grouping of controls from a specific regulation, standard or policy. Completing the actions within an assessment helps to meet the requirements of a standard, regulation or law. An assessment consists of several components including the services that are in-scope, the controls and an assessment score that shows progress towards completing the actions needed for compliance.
+
+### Templates
+Compliance manager provides templates to quickly create assessments. The templates can be modified to create an assessment optimised for the organisation's needs. Admins can also build a custom assessment by creating a template with their own controls and actions. 
+
+### Improvement actions
+Improvement actions help centralise compliance activities. Each improvement action provides recommended guidance that's intended to help organisations to align with data protection regulations and standards. Improvement actions can be assigned to users in the organisation to do implementation and testing work. Admins can lso store documentation, notes and record status updates within the improvement action.
+
+### Benefits of Compliance Manager
+
+* Translating complicated regulations, standards, company policies or other control frameworks into a simple language.
+* Providing access to a large variety of out-of-the-box assessments and custom assessments to help organisations with their unique compliance needs.
+* Mapping regulatory controls against recommended improvement actions.
+* Providing step-by-step guidance on how to implement the solutions to meet regulatory requirements.
+* Helping admins and users to prioritise actions that will have the highest impact on their organisational compliance by associating a score with each action.
