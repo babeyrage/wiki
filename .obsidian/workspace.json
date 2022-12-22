@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d86a61ce3ca3c590",
+        "id": "109186bf8cac2cc9",
         "type": "tabs",
         "children": [
           {
-            "id": "3e025dec64956a1f",
+            "id": "608eef69c6a59279",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -129,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3e025dec64956a1f",
+  "active": "608eef69c6a59279",
   "lastOpenFiles": [
-    "windows/microsoft-purview.md",
-    "windows/microsoft-sentinel.md",
-    "windows/365-defender.md",
+    "microsoft-365/service-trust-portal.md",
+    "microsoft-365/365-defender.md",
+    "microsoft-365/azure-ad.md",
+    "microsoft-365/microsoft-purview.md",
+    "microsoft-365/microsoft-sentinel.md",
     "windows/access-control-list.md",
-    "windows/azure-ad.md",
     "windows/azure-ad/azure-roles.md",
     "windows/azure-ad/conditional-access.md",
     "windows/azure-ad/external-identities.md",
-    "windows/azure-ad/azure-identity.md",
-    "windows/azure-ad/azure-editions.md"
+    "windows/azure-ad/azure-identity.md"
   ]
 }

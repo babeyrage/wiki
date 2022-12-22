@@ -1,5 +1,4 @@
 # Azure Active Directory
-
 Microsoft Azure Directory (Azure AD) is Microsoft's cloud-based identity and access management service. Organisations use Azure AD to enable their employees, guests, and others to sign in and access the resources they need.
 
 Azure AD:
