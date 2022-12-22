@@ -1,5 +1,6 @@
 # Microsoft Purview Compliance Portal
-Microsoft Purview compliance portal brings together all of the tools and data that are needed to help understand and manage an organisation's compliance needs. The compliance portal is available to customers with a Microsoft 365 SKU with one of the following roles:
+Microsoft Purview compliance portal brings together all of the tools and data that are needed to help understand and manage an organisation's compliance needs. The compliance portal is available to customers with a Microsoft 365 SKU with one of the following roles
+
 * Global administrator
 * Compliance administrator
 * Compliance data administrator
@@ -58,3 +59,27 @@ Improvement actions help centralise compliance activities. Each improvement acti
 * Mapping regulatory controls against recommended improvement actions.
 * Providing step-by-step guidance on how to implement the solutions to meet regulatory requirements.
 * Helping admins and users to prioritise actions that will have the highest impact on their organisational compliance by associating a score with each action.
+
+### Compliance Score
+Compliance score measures progress in completing recommended improvement actions within controls. The score can help an organisation to understand its current compliance posture, and also help to prioritise actions based on their potential to reduce risk.
+
+The overall compliance score is calculated using scores that are assigned to actions. Actions come in two types:
+
+* **Your improved actions**: actions that the organisation is expected to manage.
+* **Microsoft actions**: actions that Microsoft manages for the organisation.
+
+Actions are categorised as mandatory, discretionary, preventative, detective or corrective:
+
+* **Mandatory** - these actions shouldn't be bypassed.
+* **Discretionary** - these actions depend on the users understanding and adhering to a policy.
+
+The following are subcategories of actions that can be classified as mandatory or discretionary:
+
+* **Preventative** actions are designed to handle specific risks, like using encryption to protect data at rest if there were breaches or attacks.
+* **Detective** action actively monitor systems to identify irregularities that could represent risks, or that can be used to detect breaches or intrusions. 
+* **Corrective** actions help admins to minimise the adverse effects of security incidents, by undertaking corrective measures to reduce their immediate effect or possible even reverse damage.
+
+Organisations accumulate points for every action completed, and the compliance score is shown as a percentage representing all the actions completed, compared with the ones outstanding.
+
+#### Difference between Compliance Manager and Compliance Score
+Compliance Manager is an end-to-end solution in the Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organisation, and is available through Compliance Manager.
