@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9511aa9ce5c67e47",
+        "id": "8a3dd84a3c91949a",
         "type": "tabs",
         "children": [
           {
-            "id": "f8ed121c18bc43d2",
+            "id": "a86a69828eb1c60d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "windows/microsoft-purview.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "windows/microsoft-purview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "windows/microsoft-purview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "windows/microsoft-purview.md"
+              }
             }
           }
         ]
@@ -129,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f8ed121c18bc43d2",
+  "active": "a86a69828eb1c60d",
   "lastOpenFiles": [
-    "windows/365-defender.md",
     "windows/microsoft-sentinel.md",
+    "windows/microsoft-purview.md",
+    "windows/365-defender.md",
     "windows/access-control-list.md",
     "windows/azure-ad.md",
     "windows/azure-ad/azure-roles.md",
     "windows/azure-ad/conditional-access.md",
     "windows/azure-ad/external-identities.md",
     "windows/azure-ad/azure-identity.md",
-    "windows/azure-ad/azure-editions.md",
-    "programming/python.md"
+    "windows/azure-ad/azure-editions.md"
   ]
 }
