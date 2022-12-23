@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "109186bf8cac2cc9",
+        "id": "b6d14d5424b86a1f",
         "type": "tabs",
         "children": [
           {
-            "id": "608eef69c6a59279",
+            "id": "a90b9a6338feb8bf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -128,7 +129,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "608eef69c6a59279",
+  "active": "a90b9a6338feb8bf",
   "lastOpenFiles": [
     "microsoft-365/service-trust-portal.md",
     "microsoft-365/365-defender.md",
