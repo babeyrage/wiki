@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "apps/traefik.md",
+                "file": "certifications/comptia/fundamentals/cirriculum.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "apps/traefik.md",
+                "file": "certifications/comptia/fundamentals/cirriculum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "apps/traefik.md",
+                "file": "certifications/comptia/fundamentals/cirriculum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "apps/traefik.md"
+                "file": "certifications/comptia/fundamentals/cirriculum.md"
               }
             }
           }
@@ -155,11 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4735a1e1dbe50f0c",
+  "active": "d37b363dbc4f42ef",
   "lastOpenFiles": [
+    "docker/docker.md",
+    "certifications/comptia/fundamentals/exam-fc0-u61.md",
+    "attachements/ITF+ (FC0-U61) Exam Objectives.pdf",
+    "certifications/comptia/fundamentals/cirriculum.md",
+    "ITF+ (FC0-U61) Exam Objectives.pdf.md",
+    "certifications/comptia/fundamentals",
+    "certifications/cisco",
+    "certifications/comptia",
+    "apps/traefik.md",
     "apps/cloudflare-tunnels.md",
     "linux/lspci.md",
-    "apps/traefik.md",
     "apps/cert-manager.md",
     "apps/grafana.md",
     "linux/nfs.md",
@@ -184,18 +192,11 @@
     "misc/color-codes.md",
     "misc/ssl-certs.md",
     "tools/vscode.md",
-    "tools/zshell.md",
-    "windows/powershell-remote.md",
-    "windows/windows-updates.md",
-    "windows/windows-terminal.md",
-    "docker/docker-networking.md",
     "Untitled.canvas",
-    "certifications/ccna 200-301/labs/packet-tracer/TCP_IP_OSI_Model.pkt",
-    "certifications/ccna 200-301/labs/packet-tracer",
-    "certifications/ccna 200-301/labs",
+    "certifications/cisco/ccna 200-301/labs/packet-tracer/TCP_IP_OSI_Model.pkt",
+    "certifications/cisco/ccna 200-301/labs/packet-tracer",
+    "certifications/cisco/ccna 200-301/labs",
     "attachements/osi-vs-tcpip-models.png",
-    "certifications/ccna 200-301/media",
-    "certifications/ccna 200-301",
-    "certifications"
+    "certifications/ccna 200-301/media"
   ]
 }
