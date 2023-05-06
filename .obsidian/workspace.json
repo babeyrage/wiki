@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "b6d14d5424b86a1f",
+        "id": "25f10a8e0bd3ebc6",
         "type": "tabs",
         "children": [
           {
-            "id": "a90b9a6338feb8bf",
+            "id": "b6bd5e760757ba47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft-365/365-support.md",
+                "file": "certifications/ccna 200-301/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a1bb17c64e0ec01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certifications/ccna 200-301/ip-addressing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da41bda56b82ba9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certifications/ccna 200-301/binary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6eef2da2a2b86700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc/markdown.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microsoft-365/365-support.md",
+                "file": "certifications/ccna 200-301/ip-addressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "microsoft-365/365-support.md",
+                "file": "certifications/ccna 200-301/ip-addressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microsoft-365/365-support.md"
+                "file": "certifications/ccna 200-301/ip-addressing.md"
               }
             }
           }
@@ -148,10 +185,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a90b9a6338feb8bf",
+  "active": "2a1bb17c64e0ec01",
   "lastOpenFiles": [
-    "microsoft-365/service-trust-portal.md",
+    "certifications/ccna 200-301/index.md",
+    "certifications/ccna 200-301/binary.md",
+    "certifications/ccna 200-301/ip-addressing.md",
+    "certifications/ccna 200-301/hexadecimal.md",
+    "certifications/ccna 200-301/tcpip-model.md",
+    "misc/markdown.md",
+    "Untitled.canvas",
+    "certifications/ccna 200-301/labs/packet-tracer/TCP_IP_OSI_Model.pkt",
+    "certifications/ccna 200-301/labs/packet-tracer",
+    "certifications/ccna 200-301/labs",
+    "certifications/ccna 200-301/media/osi-vs-tcpip-models.png",
+    "networking/twisted-pair-cables.md",
+    "networking/osi-model/transport-layer.md",
+    "networking/osi-model/physical-layer.md",
+    "networking/osi-model/osi-model.md",
+    "certifications/ccna 200-301/key-terms.md",
+    "tools/starship.md",
+    "certifications/ccna 200-301/media",
+    "certifications/ccna 200-301",
+    "certifications",
     "microsoft-365/365-support.md",
+    "microsoft-365/service-trust-portal.md",
     "microsoft-365/365-defender.md",
     "microsoft-365/azure-ad.md",
     "microsoft-365/microsoft-purview.md",

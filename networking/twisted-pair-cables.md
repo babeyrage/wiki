@@ -30,6 +30,7 @@ PIN | COLOR | COLOR-TEXT
 6 | <span style="color:orange">██████</span> | Orange
 7 | <span style="color:brown">█</span>█<span style="color:brown">█</span>█<span style="color:brown">█</span>█ | White and Brown
 8 | <span style="color:brown">██████</span> | Brown
+
 ### TIA/EIA 568B Wiring
 PIN | COLOR | COLOR-TEXT
 ---|---|---
