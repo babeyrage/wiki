@@ -11,8 +11,12 @@
             "id": "d37b363dbc4f42ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "apps/traefik.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "apps/traefik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "apps/traefik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "apps/traefik.md"
+              }
             }
           }
         ]
@@ -147,8 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d37b363dbc4f42ef",
+  "active": "4735a1e1dbe50f0c",
   "lastOpenFiles": [
+    "apps/cloudflare-tunnels.md",
     "linux/lspci.md",
     "apps/traefik.md",
     "apps/cert-manager.md",
@@ -180,7 +189,6 @@
     "windows/windows-updates.md",
     "windows/windows-terminal.md",
     "docker/docker-networking.md",
-    "docker/docker-file.md",
     "Untitled.canvas",
     "certifications/ccna 200-301/labs/packet-tracer/TCP_IP_OSI_Model.pkt",
     "certifications/ccna 200-301/labs/packet-tracer",

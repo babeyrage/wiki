@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabCloudflare",
       "FabAppStore",
       "FabMicrosoft",
       "FasNetworkWired",
-      "FabApple",
-      "FabLinux"
+      "FabApple"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,5 +30,6 @@
   "macos": "FabApple",
   "networking": "FasNetworkWired",
   "windows": "FabMicrosoft",
-  "apps": "FabAppStore"
+  "apps": "FabAppStore",
+  "apps/cloudflare-tunnels.md": "FabCloudflare"
 }
