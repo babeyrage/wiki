@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "certifications/ccna 200-301/ip-addressing.md",
+                "file": "docker/docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "certifications/ccna 200-301/ip-addressing.md",
+                "file": "docker/docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "certifications/ccna 200-301/ip-addressing.md",
+                "file": "docker/docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "certifications/ccna 200-301/ip-addressing.md"
+                "file": "docker/docker.md"
               }
             }
           }
@@ -187,9 +186,9 @@
   },
   "active": "2a1bb17c64e0ec01",
   "lastOpenFiles": [
-    "certifications/ccna 200-301/index.md",
     "certifications/ccna 200-301/binary.md",
     "certifications/ccna 200-301/ip-addressing.md",
+    "certifications/ccna 200-301/index.md",
     "certifications/ccna 200-301/hexadecimal.md",
     "certifications/ccna 200-301/tcpip-model.md",
     "misc/markdown.md",
