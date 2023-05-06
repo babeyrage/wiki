@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5162013590335d41",
+        "id": "ccd36a5b0047dc1f",
         "type": "tabs",
         "children": [
           {
-            "id": "3b73103f9a68078e",
+            "id": "d37b363dbc4f42ef",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -89,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "attachements/Pasted image 20221120153420.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "attachements/Pasted image 20221120153420.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "attachements/Pasted image 20221120153420.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,8 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4735a1e1dbe50f0c",
+  "active": "d37b363dbc4f42ef",
   "lastOpenFiles": [
+    "linux/lspci.md",
+    "apps/traefik.md",
+    "apps/cert-manager.md",
+    "apps/grafana.md",
+    "linux/nfs.md",
+    "linux/netplan.md",
+    "attachements/Pasted image 20221120153420.png",
     "windows/microsoft-365/microsoft-purview.md",
     "windows/microsoft-365/365-support.md",
     "windows/microsoft-365/365-defender.md",
@@ -163,7 +166,6 @@
     "linux/distros/ubuntu.md",
     "attachements/Pasted image 20221120153700.png",
     "linux/distros",
-    "attachements/Pasted image 20221120153420.png",
     "macos/macos-shortcuts 1.md",
     "macos/macos-shortcuts.md",
     "misc/markdown.md",
@@ -179,12 +181,6 @@
     "windows/windows-terminal.md",
     "docker/docker-networking.md",
     "docker/docker-file.md",
-    "windows/environment-variables.md",
-    "windows/permissions.md",
-    "databases/mysql.md",
-    "certifications/ccna 200-301/index.md",
-    "docker/docker.md",
-    "certifications/ccna 200-301/binary.md",
     "Untitled.canvas",
     "certifications/ccna 200-301/labs/packet-tracer/TCP_IP_OSI_Model.pkt",
     "certifications/ccna 200-301/labs/packet-tracer",
