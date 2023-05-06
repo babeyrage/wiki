@@ -9,10 +9,15 @@ X.509 is an ITU standard defining the format of public key certificates. X.509 a
 ```bash
 openssl genrsa -aes256 -out ca-key.pem 4096
 ```
-
 2. Generate a public CA Cert
 ```bash
 openssl req -new -x509 -sha256 -days 365 -key ca-key.pem -out ca.pem
+```
+
+### Optional Stage: View Certificate's Content
+```bash
+openssl x509 -in ca.pem -text
+openssl x509 -in ca.pem -purpose -noout -text
 ```
 
 ### Generate Certificate
@@ -20,12 +25,10 @@ openssl req -new -x509 -sha256 -days 365 -key ca-key.pem -out ca.pem
 ```bash
 openssl genrsa -out cert-key.pem 4096
 ```
-
 2. Create a Certificate Signing Request (CSR)
 ```bash
 openssl req -new -sha256 -subj "/CN=yourcn" -key cert-key.pem -out cert.csr
 ```
-
 3. Create a `extfile` with all the alternative names
 ```bash
 echo "subjectAltName=DNS:your-dns.record,IP:257.10.10.1" >> extfile.cnf
@@ -34,13 +37,13 @@ echo "subjectAltName=DNS:your-dns.record,IP:257.10.10.1" >> extfile.cnf
 # optional
 echo extendedKeyUsage = serverAuth >> extfile.cnf
 ```
-
 4. Create the certificate
 ```bash
 openssl x509 -req -sha256 -days 365 -in cert.csr -CA ca.pem -CAkey ca-key.pem -out cert.pem -extfile extfile.cnf -CAcreateserial
 ```
 
 ## Certificate Formats
+
 X.509 Certificates exist in Base64 Formats **PEM (.pem, .crt, .ca-bundle)**, **PKCS#7 (.p7b, p7s)** and Binary Formats **DER (.der, .cer)**, **PKCS#12 (.pfx, p12)**.
 
 ### Convert Certs
@@ -73,7 +76,6 @@ update-ca-trust
 ```
 
 Refer the documentation [here.](https://docs.fedoraproject.org/en-US/quick-docs/using-shared-system-certificates/)
-
 ### On Arch
 System-wide – Arch(p11-kit)
 (From arch wiki)
@@ -81,7 +83,6 @@ System-wide – Arch(p11-kit)
 ```bash
 trust anchor --store myCA.crt
 ```
-
 - The certificate will be written to /etc/ca-certificates/trust-source/myCA.p11-kit and the "legacy" directories automatically updated.
 - If you get "no configured writable location" or a similar error, import the CA manually:
 - Copy the certificate to the /etc/ca-certificates/trust-source/anchors directory.
@@ -89,15 +90,14 @@ trust anchor --store myCA.crt
 ```bash 
 update-ca-trust
 ```
-
 wiki page  [here](https://wiki.archlinux.org/title/User:Grawity/Adding_a_trusted_CA_certificate)
 
 ### On Windows
+
 Assuming the path to your generated CA certificate as `C:\ca.pem`, run:
 ```powershell
 Import-Certificate -FilePath "C:\ca.pem" -CertStoreLocation Cert:\LocalMachine\Root
 ```
-
 - Set `-CertStoreLocation` to `Cert:\CurrentUser\Root` in case you want to trust certificates only for the logged in user.
 
 OR
@@ -110,6 +110,7 @@ certutil.exe -addstore root C:\ca.pem
 - `certutil.exe` is a built-in tool (classic `System32` one) and adds a system-wide trust anchor.
 
 ### On Android
+
 The exact steps vary device-to-device, but here is a generalised guide:
 1. Open Phone Settings
 2. Locate `Encryption and Credentials` section. It is generally found under `Settings > Security > Encryption and Credentials`
