@@ -127,7 +127,6 @@ _* You might need to press and hold some of these shortcuts for slightly longer 
 | ⌘ + 2                           | View the items in a Finder window as a list                                                |
 | ⌘ + 3                           | View the items in a Finder window in columns                                               |
 | ⌘ + 4                           | View the items in a Finder window in a gallery                                             |
-| ⌘ + [                           | Go to the previous folder                                                                  |
 | ⌘ + ]                           | Go to the next folder                                                                      |
 | ⌘ + ↑                           | Open the folder that contains the current folder                                           |
 | ⌃ + ⌘ + ↑                       | Open the folder that contains the current folder in a new window                           |
