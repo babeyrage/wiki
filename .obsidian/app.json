@@ -2,5 +2,11 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "spellcheck": true,
-  "attachmentFolderPath": "attachements"
+  "attachmentFolderPath": "attachements",
+  "spellcheckDictionary": [
+    "unicast",
+    "loopback",
+    "ip-address",
+    "ip-address"
+  ]
 }
