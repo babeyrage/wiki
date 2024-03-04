@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c37dad548fb116a0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,13 +157,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "12eb4a9b9577e999",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +202,6 @@
     "docker/docker.md",
     "certifications/comptia/fundamentals/exam-fc0-u61.md",
     "attachements/ITF+ (FC0-U61) Exam Objectives.pdf",
-    "certifications/comptia/fundamentals/cirriculum.md",
     "ITF+ (FC0-U61) Exam Objectives.pdf.md",
     "certifications/comptia/fundamentals",
     "certifications/cisco",
