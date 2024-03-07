@@ -282,3 +282,31 @@ Protocols must account for the following requirements:
 * **Speed & timing of delivery**
 * **Confirmation or acknowledgment requirements**
 
+### Network Protocol Requirements
+
+Common computer protocols:
+
+* Message encoding
+* Message formatting & encapsulation
+* Message size
+* Message timing
+* Message delivery options
+
+### Message Encoding
+
+Encoding is the process of converting information into another acceptable form for transmission. Decoding reverses this process to interpret the information. 
+
+### Message Formatting & Encapsulation
+
+When a message is sent from source to destination, it must use a specific format or structure. Message formats depend on the type of message and the channel that is used to deliver the message. 
+
+### Message Timing
+
+Message timing is very important in network communications and includes:
+
+* **Flow Control** - Process of managing the rate of data transmission. Flow control defines how much information can be sent and the speed at which it can be delivered.
+* **Response Timeout** - Hosts on the network use network protocols that specify how long to wait for responses and what action to take if a response timeout occurs.
+* **Access Method**
+
+
+
