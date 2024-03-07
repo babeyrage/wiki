@@ -18,7 +18,7 @@ Exam Outline
 ### Glossary
 
 ##### Communication Protocol:
-A system of rules that allow two or more entities of a communcations system to transmit information.
+A system of rules that allow two or more entities of a communications system to transmit information.
 
 ##### Protocol: 
 Defines the rules, syntax, semantics and synchronisation of communication and possible error recovery methods.
