@@ -1,5 +1,6 @@
 # Introduction to Networks
 
+## 2 Basic Switch & End Device Configuration
 ## 2.2 IOS Navigation
 
 ### Primary Command Modes
@@ -261,3 +262,23 @@ The use of IP addresses is the primary means of enabling devices to locate one a
 The structure of an IPv4 address is called dotted decimal notation and is represented by four decimal numbers between 0 and 255. IPv4 addresses are assigned to individual devices connected to a network.
 
 IPv6 addresses are 128 bits in length and written as a string of hexadecimal values. Every four bits is represented by a single hexadecimal digit; for a total of 32 hexadecimal values. Groups of four hexadecimal digits are separated by a colon (:) . IPv6 addresses are not case-sensitive and can be written in either lowercase or uppercase.
+
+## 3 Protocols & Models
+
+## 3.1 The Rules
+
+### Communications Fundamentals & Protocols
+
+All communication methods have the following three elements in common:
+
+* **Message source (sender)** - People or electronic devices that need to send a message to other individuals or devices.
+* **Message Destination (receiver)** - Destination receives the message and interprets it.
+* **Channel** - Consists of the media that provides the pathway over which the message travels from source to destination.
+
+Protocols must account for the following requirements:
+
+* **An identified sender & receiver**
+* **Common language & grammar**
+* **Speed & timing of delivery**
+* **Confirmation or acknowledgment requirements**
+
