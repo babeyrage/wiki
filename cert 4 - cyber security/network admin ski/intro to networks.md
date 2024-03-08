@@ -300,13 +300,47 @@ Encoding is the process of converting information into another acceptable form f
 
 When a message is sent from source to destination, it must use a specific format or structure. Message formats depend on the type of message and the channel that is used to deliver the message. 
 
+The process of placing one message format inside another message format is encapsulation. De-encapsulation occurs when the process is reversed.
+
 ### Message Timing
 
 Message timing is very important in network communications and includes:
 
 * **Flow Control** - Process of managing the rate of data transmission. Flow control defines how much information can be sent and the speed at which it can be delivered.
 * **Response Timeout** - Hosts on the network use network protocols that specify how long to wait for responses and what action to take if a response timeout occurs.
-* **Access Method**
+* **Access Method** - Determines when someone can send a message. 
+
+### Message Delivery Options
+
+* **Unicast** - Information is being transmitted to a single end device.
+* **Multicast** - Information is being transmitted to one more end devices.
+* **Broadcast** - Information is being transmitted to all end devices.
+
+![[Screenshot 2024-03-08 122418.png]]
 
 
+## 3.2 Protocols
+
+Network protocols define a common format and set of rules for exchanging messages between devices, and are implemented by end devices and intermediary devices in software, hardware or both. Each network protocol has its own function, formation and rules for communications. 
+
+### Network Protocol Overview
+
+| **Protocol Type**                    | **Description**                                                                                                                                                                                                   |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Network Communications Protocols** | Protocols enable two or more devices to communicate over one or more networks.<br>eg: Ethernet - involves multiple protocols IP, Transmission Control Protocol (TCP), HTTP                                        |
+| **Network Security Protocols**       | Protocols secure data to provide authentication, data integrity and data encryption. <br>eg: SSH, SSL & TLS                                                                                                       |
+| **Routing Protocols**                | Protocols enable routers to exchange route information, compare path information and then select the best path to the destination network. <br>eg: Open Shortest Path First (OSPF), Border Gateway Protocol (BGP) |
+| **Service Discovery Protocols**      | Protocols are used for the automatic detection of devices or services. <br>eg: DHCP, DNS                                                                                                                          |
+### Network Protocol Functions
+
+| **Function**              | **Description**                                                                                                                                                                                                                                          |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Addressing**            | Identifies the sender and the intended receiver of the message using a defined addressing scheme. <br>eg: Ethernet, IPv4, IPv6                                                                                                                           |
+| **Reliability**           | Provides a guaranteed delivery mechanism in case messages are lost or corrupted in transit. TCP provides guaranteed delivery.                                                                                                                            |
+| **Flow Control**          | Ensures that data flows at an efficient rate between two communicating devices. TCP provides flow control services.                                                                                                                                      |
+| **Sequencing**            | Uniquely labels each transmitted segment of data. The receiving device uses the sequencing information to reassemble the information correctly, and is useful if the data segments are lost, or received out-of-order. TCP provides sequencing services. |
+| **Error Detection**       | Used to determine if the data became corrupted during transmission. <br>eg: Ethernet, IPv4, IPv6, TCP                                                                                                                                                    |
+| **Application Interface** | Contains information used for process-to-process communications between network applications. <br>eg: HTTP & HTTPS are used to communicate between client and server web processes.                                                                      |
+
+### Network Protocol Suites
 
