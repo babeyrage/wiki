@@ -344,3 +344,83 @@ Network protocols define a common format and set of rules for exchanging message
 
 ### Network Protocol Suites
 
+A protocol suite is a group of inter-related protocols necessary to perform a communication function.
+
+A protocol stack shows how the individual protocols within a suite are implemented. The protocols are viewed in terms of layers, with each higher-level service depending on the functionality defined by the protocols shown in the lower levels. The lower layers are concerned with moving data over the network and providing services to the upper layers, which are focused on the content of the message being sent.
+
+### Evolution of Protocol Suites
+
+* **Internet Protocol Suite (TCP/IP)** - Is an open standard protocol suite maintained by the Internet Engineering Task Force (IETF).
+* **Open Systems Interconnection (OSI)** - OSI protocol included a seven-layer model, the OSI reference model, and categorises the functions of its protocols. The OSI protocols have largely been replaced by TCP/IP.
+* **AppleTalk** - Short-lived proprietary protocol suite released by Apple Inc.
+* **Novell NetWare** - Short-lived proprietary protocol suite and network operating system developed by Novell Inc.
+
+### TCP/IP Protocol Suite
+
+TCP/IP protocols are available for the application, transport, and internet layers. There are no TCP/IP protocols in the network access layer.
+
+![[Screenshot 2024-03-08 at 2.00.34 pm.png]]
+
+
+## 4 Physical Layer
+
+The OSI physical layer provides the means to transport the bits that make up a data link layer frame across the network media. This layer accepts a complete frame from the data link layer and encodes it as a series of signals that are transmitted to the local media. The encoded bits that comprise a frame are received by either an end device or an intermediate device.
+
+The physical layer standards address three functional areas:
+
+- Physical Components
+- Encoding
+- Signaling
+
+### Physical Components
+
+The physical components are the electronic hardware devices, media, and other connectors that transmit the signals that represent the bits. Hardware components such as NICs, interfaces and connectors, cable materials, and cable designs are all specified in standards associated with the physical layer.
+
+### Encoding
+
+Encoding or line encoding is a method of converting a stream of data bits into a predefined "code”. Codes are groupings of bits used to provide a predictable pattern that can be recognized by both the sender and the receiver. In other words, encoding is the method or pattern used to represent digital information.
+
+### Signaling
+
+The physical layer must generate the electrical, optical, or wireless signals that represent the "1" and "0" on the media. The way that bits are represented is called the signaling method. The physical layer standards must define what type of signal represents a "1" and what type of signal represents a "0". This can be as simple as a change in the level of an electrical signal or optical pulse. For example, a long pulse might represent a 1 whereas a short pulse might represent a 0.
+
+### Bandwidth
+
+Data transfer is usually discussed in terms of bandwidth. Bandwidth is the capacity at which a medium can carry data. Digital bandwidth measures the amount of data that can flow from one place to another in a given amount of time. Bandwidth is typically measured in kilobits per second (kbps), megabits per second (Mbps), or gigabits per second (Gbps).
+
+A combination of factors determines the practical bandwidth of a network:
+
+- The properties of the physical media
+- The technologies chosen for signaling and detecting network signals
+
+| **Unit of Bandwidth** | **Abbreviation** | **Equivalence**                           |
+| --------------------- | ---------------- | ----------------------------------------- |
+| Bits per second       | bps              | 1 bps = fundamental unit of bandwidth     |
+| Kilobits per second   | Kbps             | 1 Kbps = 1,000 bps = 103 bps              |
+| Megabits per second   | Mbps             | 1 Mbps = 1,000,000 bps = 106 bps          |
+| Gigabits per second   | Gbps             | 1 Gbps = 1,000,000,000 bps = 109 bps      |
+| Terabits per second   | Tbps             | 1 Tbps = 1,000,000,000,000 bps = 1012 bps |
+Terms used to measure the quality of bandwidth include:
+
+- Latency
+- Throughput
+- Goodput
+
+**Latency**
+
+Latency refers to the amount of time, including delays, for data to travel from one given point to another.
+
+**Throughput**
+
+Throughput is the measure of the transfer of bits across the media over a given period of time.
+
+Due to a number of factors, throughput usually does not match the specified bandwidth in physical layer implementations. Throughput is usually lower than the bandwidth. There are many factors that influence throughput:
+
+- The amount of traffic
+- The type of traffic
+- The latency created by the number of network devices encountered between source and destination
+
+**Goodput***
+
+Goodput is the measure of usable data transferred over a given period of time. Goodput is throughput minus traffic overhead for establishing sessions, acknowledgments, encapsulation, and retransmitted bits. Goodput is always lower than throughput, which is generally lower than the bandwidth.
+
