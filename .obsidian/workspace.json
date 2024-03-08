@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "67528cc97d48c233",
+        "id": "7c0041f001a02c72",
         "type": "tabs",
         "children": [
           {
-            "id": "4698e08e164904a9",
+            "id": "d5c6c380d7fcaf4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,14 +43,6 @@
             }
           },
           {
-            "id": "cfa1a71284309ef9",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "f29e74ad0b76f213",
             "type": "leaf",
             "state": {
@@ -63,6 +55,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "cfa1a71284309ef9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           },
           {
@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,12 +175,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4698e08e164904a9",
+  "active": "d5c6c380d7fcaf4a",
   "lastOpenFiles": [
+    "attachements/Screenshot 2024-03-08 at 2.00.34 pm.png",
     "attachements/Screenshot 2024-03-08 122418.png",
-    "cert 4 - cyber security/network admin ski/intro to networks.md",
     "certifications/cisco/ccna 200-301/index.md",
     "certifications/cisco/ccna 200-301/tcpip-model.md",
+    "cert 4 - cyber security/network admin ski/intro to networks.md",
     "attachements/Screenshot 2024-03-04 183733.png",
     "cloud/provider/civo.md",
     "certifications/cisco/ccna 200-301/binary.md",
