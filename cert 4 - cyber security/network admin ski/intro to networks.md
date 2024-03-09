@@ -424,3 +424,69 @@ Due to a number of factors, throughput usually does not match the specified band
 
 Goodput is the measure of usable data transferred over a given period of time. Goodput is throughput minus traffic overhead for establishing sessions, acknowledgments, encapsulation, and retransmitted bits. Goodput is always lower than throughput, which is generally lower than the bandwidth.
 
+## 5 Number Systems
+
+### 5.1 Binary Number System
+
+### Binary & IPv4 Addresses
+
+Binary is a numbering system that consists of the digits 0 and 1, called bits. The decimal numbering system consists of 10 digits consisting of the digits 0 - 9. 
+
+Each IP address consists of a 32 bit string, divided into four 8-bit sections called octets. 
+
+Binary Positional Notation
+
+| **Radix**          | **2**     | **2**     | 2         | 2         | 2         | 2         | 2         | 2         |
+| ------------------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| Position in Number | 7         | 6         | 5         | 4         | 3         | 2         | 1         | 0         |
+| Calculate          | $$(2^7)$$ | $$(2^6)$$ | $$(2^5)$$ | $$(2^4)$$ | $$(2^3)$$ | $$(2^2)$$ | $$(2^1)$$ | $$(2^0)$$ |
+| Position value     | 128       | 64        | 32        | 16        | 8         | 4         | 2         | 1         |
+
+- Row 1, Radix is the number base. Binary notation is based on 2, therefore the radix is 2.
+- Row 2, Position in number considers the position of the binary number starting with, from right to left, 0 (1st position), 1 (2nd position), 2 (3rd position), 3 (4th position). These numbers also represent the exponential value use to calculate the positional value in the 4th row.
+- Row 3 calculates the positional value by taking the radix and raising it by the exponential value of its position in row 2.  
+    **Note:** n0 is = 1.
+- Row 4 positional value represents units of ones, twos, fours, eights, etc.
+
+| **Positional Value** | 128     | 64   | 32   | 16   | 8   | 4   | 2   | 1   |
+| -------------------- | ------- | ---- | ---- | ---- | --- | --- | --- | --- |
+| 11000000             | 1       | 1    | 0    | 0    | 0   | 0   | 0   | 0   |
+| Calculate            | 1x128   | 1x64 | 0x32 | 0x16 | 0x8 | 0x4 | 0x2 | 0x1 |
+| Add                  | 128     | + 64 | + 0  | + 0  | + 0 | + 0 | + 0 | + 0 |
+| Result               | **192** |      |      |      |     |     |     |     |
+
+### Convert Binary to Decimal
+
+To convert a binary IPv4 address to its dotted decimal equivalent, divide the IPv4 address into four 8-bit octets. Next apply the binary positional value to the first octet binary number and calculate accordingly.
+
+For example, consider that 11000000.10101000.00001011.00001010 is the binary IPv4 address of a host. To convert the binary address to decimal, start with the first octet, as shown in the table. Enter the 8-bit binary number under the positional value of row 1 and then calculate to produce the decimal number 192. This number goes into the first octet of the dotted decimal notation.
+
+|Positional Value|128|64|32|16|8|4|2|1|
+|---|---|---|---|---|---|---|---|---|
+|Binary Number (11000000)|1|1|0|0|0|0|0|0|
+|Calculate|128|64|32|16|8|4|2|1|
+|Add Them Up...|128|+ 64|+ 0|+ 0|+ 0|+ 0|+ 0|+ 0|
+|**Result**|**192**|   |   |   |   |   |   |   |
+
+| Positional Value         | 128     | 64  | 32   | 16  | 8   | 4   | 2   | 1   |
+| ------------------------ | ------- | --- | ---- | --- | --- | --- | --- | --- |
+| Binary Number (10101000) | 1       | 0   | 1    | 0   | 1   | 0   | 0   | 0   |
+| Calculate                | 128     | 64  | 32   | 16  | 8   | 4   | 2   | 1   |
+| Add Them Up...           | 128     | + 0 | + 32 | + 0 | + 8 | + 0 | + 0 | + 0 |
+| **Result**               | **168** |     |      |     |     |     |     |     |
+
+| Positional Value         | 128    | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| ------------------------ | ------ | --- | --- | --- | --- | --- | --- | --- |
+| Binary Number (00001011) | 0      | 0   | 0   | 0   | 1   | 0   | 1   | 1   |
+| Calculate                | 128    | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| Add Them Up...           | 0      | + 0 | + 0 | + 0 | + 8 | + 0 | + 2 | + 1 |
+| **Result**               | **11** |     |     |     |     |     |     |     |
+
+|Positional Value|128|64|32|16|8|4|2|1|
+|---|---|---|---|---|---|---|---|---|
+|Binary Number (00001010)|0|0|0|0|1|0|1|0|
+|Calculate|128|64|32|16|8|4|2|1|
+|Add Them Up...|0|+ 0|+ 0|+ 0|+ 8|+ 0|+ 2|+ 0|
+|**Result**|**10**|   |   |   |   |   |   |   |
+This completes the IP address and produces **192.168.11.10**.
+
