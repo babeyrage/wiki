@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 275.5
   },
   "right": {
     "id": "22c469f41898e9a3",
@@ -175,7 +175,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d5c6c380d7fcaf4a",
+  "active": "4735a1e1dbe50f0c",
   "lastOpenFiles": [
     "attachements/Screenshot 2024-03-08 at 2.00.34 pm.png",
     "attachements/Screenshot 2024-03-08 122418.png",
